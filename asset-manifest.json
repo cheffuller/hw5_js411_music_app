@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hw5_js411_music_app.git/static/css/main.073c9b0a.css",
+    "main.js": "/hw5_js411_music_app.git/static/js/main.d0395eb2.js",
+    "static/js/787.849a1ebc.chunk.js": "/hw5_js411_music_app.git/static/js/787.849a1ebc.chunk.js",
+    "index.html": "/hw5_js411_music_app.git/index.html",
+    "main.073c9b0a.css.map": "/hw5_js411_music_app.git/static/css/main.073c9b0a.css.map",
+    "main.d0395eb2.js.map": "/hw5_js411_music_app.git/static/js/main.d0395eb2.js.map",
+    "787.849a1ebc.chunk.js.map": "/hw5_js411_music_app.git/static/js/787.849a1ebc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d0395eb2.js"
+  ]
+}
