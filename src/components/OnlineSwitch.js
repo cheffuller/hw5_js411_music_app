@@ -4,7 +4,7 @@ import { Box, Switch, Typography } from '@mui/material';
 export default function OnlineSwitch() {
   const [online, setOnline] = useState(true);
 
-  const handleOnlineChange = () => {
+  const handleChange = () => {
     setOnline(!online);
   };
 
@@ -26,7 +26,7 @@ export default function OnlineSwitch() {
       <Switch
         sx={{ margin: 'auto' }}
         checked={online}
-        onChange={handleOnlineChange}
+        onChange={handleChange}
       />
       <OfflineWarning online={online} />
     </Box>

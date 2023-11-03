@@ -5,7 +5,7 @@ import { VolumeDown, VolumeUp } from '@mui/icons-material';
 export default function VolumeSlider() {
   const [volume, setVolume] = useState(20);
 
-  const handleVolumeChange = (e, newValue) => {
+  const handleChange = (e, newValue) => {
     setVolume(newValue);
   };
 
@@ -29,7 +29,7 @@ export default function VolumeSlider() {
         <Slider
           aria-label='Volume'
           value={volume}
-          onChange={handleVolumeChange}
+          onChange={handleChange}
           min={0}
           max={100}
         />

@@ -3,13 +3,13 @@ import {
   Card,
   CardContent,
   Typography,
-  Switch,
 } from '@mui/material/';
 import OnlineSwitch from './OnlineSwitch';
 import VolumeSlider from './VolumeSlider';
 import QualitySelect from './QualitySelect';
 
 export default function Dashboard() {
+
   return (
     <Box
       component='form'
@@ -74,5 +74,3 @@ export default function Dashboard() {
     </Box>
   );
 }
-
-// value={value} onChange={handleChange}
